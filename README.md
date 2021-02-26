@@ -24,4 +24,5 @@ ping : responds with your Ping to the Bot in ms
 ```
 
 ## Updates
-02/26/2020: The Bot doesn't Work, im looking forward to Fix it. Contributions are welcome.
+02/27/2021: The Bot starts, but the DiscordJS Library on my test-server is kinda broken.
+02/26/2021: The Bot doesn't Work, im looking forward to Fix it. Contributions are welcome.
