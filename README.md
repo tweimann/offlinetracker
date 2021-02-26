@@ -1,6 +1,13 @@
 # panicbot
 A Discord Bot that tracks the Online Status of other Bots and sends you a Message if they are offline
 
+## Requirements:
+```
+-NodeJS
+-something to Host the Bot on (e.g. a Raspberry Pi)
+-basic Linux or Windows Commandline knowledge
+```
+
 ## Quick-Start:
 ```
 -Copy the Files into a single directory
