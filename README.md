@@ -10,3 +10,11 @@ A Discord Bot that tracks the Online Status of other Bots and sends you a Messag
 -Install the bot by executing "npm install"
 -Start the bot by executing "node bot.js"
 ```
+
+## Commands (Prefix: ">"):
+```
+ping : responds with your Ping to the Bot in ms
+```
+
+## Updates
+02/26/2020: The Bot doesn't Work, im looking forward to Fix it. Contributions are welcome.
