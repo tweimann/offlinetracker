@@ -1,27 +1,29 @@
 # panicbot
-A Discord Bot that tracks the Online Status of other Bots and sends you a Message if they are offline
+A Discord Bot that tracks the Online Status of two other Bots and sends you a Message if they are offline
 
 ## Requirements:
 ```
--NodeJS
+-NodeJS and NPM
 -something to Host the Bot on (e.g. a Raspberry Pi)
--basic Linux or Windows Commandline knowledge
+-basic Linux Terminal or Windows CMD knowledge
 ```
 
 ## Quick-Start:
 ```
 -Copy the Files into a single directory
--Copy your Bot-Token into the "auth.json" File
--Create a Channel on your Discord Server called "surveillance"
+-Copy your Bot-Token into the "settings.json" File
+-Enter the Interval the Bot should be looking for presence Updates
+-Enter the Channel-Name the Bot should send the Updates in
+-Enter the ID's of your 2 Bots
 -Use the Terminal to CD into the Directory the Files are in
--Install the bot by executing "npm install"
--Start the bot by executing "node bot.js"
+-Install the bot with "npm install"
+-Start the bot with "node bot.js"
 ```
 
 ## Additional Stuff and Hints (mostly for Linux)
 ```
 -Use the @REBOOT function of crontab to auto-start your Bot on Startup
--Use "screen -d -m -S panicbot /path/to/nodejs /path/to/your/bot.js"
+-Use "screen -d -m -S panicbot /path/to/nodejs /path/to/your/bot.js" to run the Bot in the Background
 -You can find the path to NodeJS with "which node"
 ```
 
