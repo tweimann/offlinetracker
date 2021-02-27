@@ -14,7 +14,7 @@ bot.once('ready', () => {
 	console.log('Ready!');
 });
 
-bot.login(auth.token);
+bot.login(settings.token);
 
 bot.on('message', message => {
 	var sender = message.author;
