@@ -1,9 +1,9 @@
 {
-"token": "NzQyNjk0ODEzMjY2MjE0OTMz.XzJ2cg.589nCoGI8DJL4QEYhai5gaxNP38",
+"token": "TOKEN GOES HERE (REQUIRED)",
 "prefix": ">",
-"channelname": "chat",
-"mention": "537506237047242764",
+"channelname": "CHANNELNAME GOES HERE (REQUIRED)",
+"mention": "USER-ID THAT THE BOT SHOULD MENTION (REQUIRED)",
 
-"tracker1": "739926511586639923",
-"tracker2": "777100931472949258"
+"tracker1": "BOT-ID THE BOT SHOULD TRACK (REQUIRED)",
+"tracker2": "OTHER BOT-ID THE BOT SHOULD TRACK (REQUIRED)"
 }
