@@ -18,11 +18,20 @@ A Discord Bot that tracks the Online Status of other Bots and sends you a Messag
 -Start the bot by executing "node bot.js"
 ```
 
+## Additional Stuff and Hints (mostly for Linux)
+```
+-Use the @REBOOT function of crontab to auto-start your Bot on Startup
+-Use "screen -d -m -S panicbot /path/to/nodejs /path/to/your/bot.js"
+-You can find the path to NodeJS with "which node"
+```
+
 ## Commands (Prefix: ">"):
 ```
 ping : responds with your Ping to the Bot in ms
 ```
 
 ## Updates
+```
 02/27/2021: The Bot starts, but the DiscordJS Library on my test-server is kinda broken.
 02/26/2021: The Bot doesn't Work, im looking forward to Fix it. Contributions are welcome.
+```
