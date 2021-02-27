@@ -3,8 +3,8 @@ A Discord Bot that tracks the Online Status of two other Bots and sends you a Me
 
 ## Requirements:
 ```
--NodeJS and NPM
--something to Host the Bot on (e.g. a Raspberry Pi)
+-NodeJS v11 (or higher), NPM and DiscordJS v12 (or higher)
+-something to Host the Bot on (e.g. a Raspberry Pi 3 or 4)
 -basic Linux Terminal or Windows CMD knowledge
 ```
 
@@ -12,7 +12,6 @@ A Discord Bot that tracks the Online Status of two other Bots and sends you a Me
 ```
 -Copy the Files into a single directory
 -Copy your Bot-Token into the "settings.json" File
--Enter the Interval the Bot should be looking for presence Updates
 -Enter the Channel-Name the Bot should send the Updates in
 -Enter the ID's of your 2 Bots
 -Use the Terminal to CD into the Directory the Files are in
@@ -34,6 +33,7 @@ ping : responds with your Ping to the Bot in ms
 
 ## Updates
 ```
+02/27/2021: The Bot Works!
 02/27/2021: The Bot starts, but the DiscordJS Library on my test-server is kinda broken.
 02/26/2021: The Bot doesn't Work, im looking forward to Fix it. Contributions are welcome.
 ```
