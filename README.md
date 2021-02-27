@@ -22,7 +22,7 @@
 
 ## Additional Stuff and Hints (mostly for Linux)
 ```
-[W: works with Windows; L: Works with Linux (tested with Ubuntu)]
+[W: works for Windows | L: Works for Linux | Haven't tested it with TempleOS, ReactOS and FreeBSD YET :)]
 -You can get Every ID by enabling the Dev-Mode in Discord and then Right-Clicking the Profile/Server (W/L)
 -Use the @REBOOT function of crontab to auto-start your Bot on Startup (L)
 -Use screen -d -m -S panicbot /path/to/nodejs /path/to/your/bot.js to run the Bot in the Background (L)
