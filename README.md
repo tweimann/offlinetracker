@@ -1,5 +1,5 @@
 # panicbot
-A Discord Bot that tracks the Online Status of two other Bots and sends you a Message if they are offline
+##### A Discord Bot that tracks the Online Status of two other Bots and sends you a Message if they are offline
 
 ## Requirements:
 ```
