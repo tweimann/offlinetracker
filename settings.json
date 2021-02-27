@@ -1,6 +1,6 @@
-{"token": "NzQyNjk0ODEzMjY2MjE0OTMz.XzJ2cg.XvCuMQEGTbK0pAvnC2997WKqKJU"} 
+{"token": "TOKEN-GOES-HERE"} 
 {"prefix": ">"}
-{"interval": "60000"}
+{"interval": "TIMEOUT-IN-MS-GOES-HERE"}
 
-{"tracker1": "739926511586639923"}
-{"tracker2": "777100931472949258"}
+{"tracker1": "ID-OF-YOUR-FIRST-BOT-GOES-HERE"}
+{"tracker2": "ID-OF-YOUR-SECOND-BOT-GOES-HERE"}
