@@ -1,5 +1,5 @@
 # panicbot
-##### A Discord Bot that tracks the Online Status of two other Bots and sends you a Message if they are offline
+### A Discord Bot that tracks the Online Status of two other Bots and sends you a Message if they are offline
 
 ## Requirements:
 ```
@@ -9,7 +9,7 @@
 ```
 
 ## Quick-Start:
-##### MAKE SURE YOU ENABLED "PRESENCE UPDATES" IN YOUR BOT'S SETTINGS. [Click Here to learn more.](https://stackoverflow.com/questions/61914382/how-can-i-check-if-a-person-has-went-online-offline-etc-in-discord-js/65476091#65476091)
+### MAKE SURE YOU ENABLED "PRESENCE UPDATES" IN YOUR BOT'S SETTINGS. [Click Here to learn more.](https://stackoverflow.com/questions/61914382/how-can-i-check-if-a-person-has-went-online-offline-etc-in-discord-js/65476091#65476091)
 ```
 -Copy the Files into a single directory
 -Copy your Bot-Token into the "settings.json" File
