@@ -2,6 +2,7 @@
 "token": "TOKEN GOES HERE",
 "prefix": ">",
 "interval": "INTERVAL IN MILLISECONDS",
+"channelname": "CHANNEL NAME",
 
 "tracker1": "ID OF YOUR FIRST BOT",
 "tracker2": "ID OF YOUR SECOND BOT"
