@@ -32,12 +32,12 @@ bot.on('presenceUpdate', (oldPresence, newPresence) => {
 	if (newPresence.status == 'offline') {
 		if (newPresence.member.id == settings.tracker1) {
 			bot.channels.cache.find(channel => channel.name == settings.channelname)
-			.send('<@' + settings.mention + '> ' + newPresence.member.name + ' is offline!');
+			.send('<@' + settings.mention + '> ' + newPresence.member.id + ' is offline!');
 			return
 		}
 		if (newPresence.member.id == settings.tracker2) {
 			bot.channels.cache.find(channel => channel.name == settings.channelname)
-			.send('<@' + settings.mention + '> ' + newPresence.member.name + ' is offline!');
+			.send('<@' + settings.mention + '> ' + newPresence.member.id + ' is offline!');
 			return
 		}
 	}
