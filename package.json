@@ -1,5 +1,5 @@
 {
-  "name": "panicbot",
+  "name": "offlinebot",
   "version": "1.0.0",
   "description": "Frag nicht was fuer Saft",
   "main": "bot.js",
