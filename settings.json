@@ -1,9 +1,9 @@
 {
-"token": "TOKEN GOES HERE",
+"token": "NzQyNjk0ODEzMjY2MjE0OTMz.XzJ2cg.589nCoGI8DJL4QEYhai5gaxNP38",
 "prefix": ">",
-"interval": "INTERVAL IN MILLISECONDS",
-"channelname": "CHANNEL NAME",
+"channelname": "chat",
+"mention": "537506237047242764",
 
-"tracker1": "ID OF YOUR FIRST BOT",
-"tracker2": "ID OF YOUR SECOND BOT"
+"tracker1": "739926511586639923",
+"tracker2": "777100931472949258"
 }

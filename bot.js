@@ -28,17 +28,17 @@ bot.on('message', message => {
 	}
 });
 
-setInterval(function() {
-
-	bot.guilds.cache.find().then(member => {
-		bot.channels.cache.find(channel => channel.name === 'surveillance').send(member);
-	});
-
-}, settings.interval);
-
 bot.on('presenceUpdate', (oldPresence, newPresence) => {
-	bot.channels.cache.find(channel => channel.name === 'surveillance').send('test');
-	newPresence.guild.channels.find(channel => channel.name === 'chat').send('lol');
-	console.log('test' + oldPresence + newPresence);
-	return
+	if (newPresence.status == 'offline') {
+		if (newPresence.member.id == settings.tracker1) {
+			bot.channels.cache.find(channel => channel.name == settings.channelname)
+			.send('<@' + settings.mention + '> ' + newPresence.member.name + ' is offline!');
+			return
+		}
+		if (newPresence.member.id == settings.tracker2) {
+			bot.channels.cache.find(channel => channel.name == settings.channelname)
+			.send('<@' + settings.mention + '> ' + newPresence.member.name + ' is offline!');
+			return
+		}
+	}
 });
