@@ -21,8 +21,9 @@ A Discord Bot that tracks the Online Status of two other Bots and sends you a Me
 
 ## Additional Stuff and Hints (mostly for Linux)
 ```
+-You can get Every ID by enabling the Dev-Mode in Discord and then Right-Clicking the Profile/Server
 -Use the @REBOOT function of crontab to auto-start your Bot on Startup
--Use "screen -d -m -S panicbot /path/to/nodejs /path/to/your/bot.js" to run the Bot in the Background
+-Use ``` ```bash screen -d -m -S panicbot /path/to/nodejs /path/to/your/bot.js``` ``` to run the Bot in the Background
 -You can find the path to NodeJS with "which node"
 ```
 
