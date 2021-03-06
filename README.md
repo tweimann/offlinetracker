@@ -16,7 +16,7 @@
 -Enter the Channel-Name the Bot should send the Updates in
 -Enter the ID's of your 2 Bots
 -Use the Terminal to CD into the Directory the Files are in
--Install the bot with "npm install"
+-Install the bot with "npm install discord.js "
 -Start the bot with "node bot.js"
 ```
 
