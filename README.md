@@ -3,7 +3,7 @@
 
 ## Requirements:
 ```
--NodeJS v11 (or higher), NPM and DiscordJS v12 (or higher)
+-NodeJS v11 (or higher), NPM, ShellJS and DiscordJS v12 (or higher)
 -something to Host the Bot on (e.g. a Raspberry Pi 3 or 4)
 -basic Linux Terminal or Windows CMD knowledge
 ```
@@ -16,7 +16,7 @@
 -Enter the Channel-Name the Bot should send the Updates in
 -Enter the ID's of your 2 Bots
 -Use the Terminal to CD into the Directory the Files are in
--Install the bot with "npm install discord.js "
+-Install the bot with "npm install discord.js shelljs"
 -Start the bot with "node bot.js"
 ```
 
