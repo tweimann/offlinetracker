@@ -31,9 +31,12 @@
 -You don't need a good Internet Connection for this, but you should have a Ping <1000ms (W/L)
 ```
 
-## Commands (Prefix: ">"):
+## Commands (Prefix: "P" or "p"):
 ```
 ping : responds with your Ping to the Bot in ms
+pkall : kills every screen session on your host
+pkill : kills a specific screen session on your host
+pstart : executes a file that can start your bots
 ```
 
 ## Updates
