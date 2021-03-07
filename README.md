@@ -41,6 +41,7 @@ pstart : executes a file that can start your bots
 
 ## Updates
 ```
+03/07/2021: Added several Commands to manage other Bots
 02/27/2021: The Bot Works!
 02/27/2021: The Bot starts, but the DiscordJS Library on my test-server is kinda broken.
 02/26/2021: The Bot doesn't Work, im looking forward to Fix it. Contributions are welcome.
