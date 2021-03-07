@@ -1,5 +1,6 @@
 var settings = require('./settings.json');
 var Discord = require('discord.js');
+var shell = require('shelljs');
 var bot = new Discord.Client();
 
 bot.once('ready', () => {
@@ -26,6 +27,24 @@ bot.on('message', message => {
 		console.log('>>> Pinged ' + message.member.user.tag);
 		return
 	}
+	if (msg.startsWith(prefix + 'START')) {
+		shell.cd(settings.startdir);
+		shell.exec(settings.startfile);
+		message.channel.send('Done!');
+		return
+	}
+	if (msg.startsWith(prefix + 'KILL')) {
+		shell.exec('screen -X -S ' + msg.substring(6).toLowerCase() + ' quit', (code, output) => {
+			message.channel.send(output);
+		});
+		return
+	}
+	if (msg.startsWith(prefix + 'KALL')) {
+		shell.exec('killall screen', (code, output) => {
+			message.channel.send(output);
+		});
+		return
+	}
 });
 
 bot.on('presenceUpdate', (oldPresence, newPresence) => {
@@ -37,9 +56,8 @@ bot.on('presenceUpdate', (oldPresence, newPresence) => {
 		}
 		if (newPresence.member.id == settings.tracker2) {
 			bot.channels.cache.find(channel => channel.name == settings.channelname)
-			.send('<@' + settings.mention + '> <@' + newPresence.member.id + '> is offline!');
+				.send('<@' + settings.mention + '> <@' + newPresence.member.id + '> is offline!');
 			return
 		}
 	}
 });
-
