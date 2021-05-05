@@ -49,15 +49,13 @@ bot.on('message', message => {
 
 bot.on('presenceUpdate', (oldPresence, newPresence) => {
 	if (newPresence.status == 'offline') {
-		if (newPresence.member.id == settings.tracker1) {
-			bot.channels.cache.find(channel => channel.name == settings.channelname)
-			.send('<@' + settings.mention + '> <@' + newPresence.member.id + '> is offline!');
-			return
-		}
-		if (newPresence.member.id == settings.tracker2) {
-			bot.channels.cache.find(channel => channel.name == settings.channelname)
+		settings.tracker.forEach(function(id){
+			if (newPresence.member.id == id) {
+				bot.channels.cache.find(channel => channel.name == settings.channelname)
 				.send('<@' + settings.mention + '> <@' + newPresence.member.id + '> is offline!');
-			return
-		}
+				return
+			}
+		});
+		return
 	}
 });
