@@ -5,7 +5,6 @@
 "mention": "USER-ID THAT THE BOT SHOULD MENTION (REQUIRED)",
 "startfile": "./nameofyourstartfile.sh",
 "startdir": "/path/to/your/startfile/without/the/file/itself/",
-
-"tracker1": "BOT-ID THE BOT SHOULD TRACK (REQUIRED)",
-"tracker2": "OTHER BOT-ID THE BOT SHOULD TRACK (REQUIRED)"
+  
+"tracker": ["", "", ""]
 }
