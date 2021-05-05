@@ -1,5 +1,5 @@
 # offlinetracker
-#### A Discord Bot that tracks the Online Status of two other Bots and sends you a Message if they are offline
+#### A Discord Bot that tracks the Online Status of other Bots and sends you a Message if they are offline
 
 ## Requirements:
 ```
@@ -14,7 +14,7 @@
 -Copy the Files into a single directory
 -Copy your Bot-Token into the "settings.json" File
 -Enter the Channel-Name the Bot should send the Updates in
--Enter the ID's of your 2 Bots
+-Enter the ID's of your Bots
 -Use the Terminal to CD into the Directory the Files are in
 -Install the bot with "npm install discord.js shelljs"
 -Start the bot with "node bot.js"
